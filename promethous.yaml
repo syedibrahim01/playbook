@@ -1,0 +1,8 @@
+apiVersion: V1
+Kind:POD
+MetaData:
+    name: promethous
+Spec:
+   containers:
+     - name: promethous
+       image: prom/promethous
