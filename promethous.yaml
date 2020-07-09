@@ -6,3 +6,6 @@ Spec:
    containers:
      - name: promethous
        image: prom/promethous
+       ports:
+        - containers: 9090
+        
